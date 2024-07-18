@@ -83,6 +83,7 @@
     
     background-color: var(--yellow);
     cursor: pointer;
+    border-radius: 5px;
    
 }
 
