@@ -5,6 +5,7 @@
     bottom: 0;
     width: 100%;    
     box-sizing: border-box;
+    border-top: 1px solid rgba(179, 179, 179,0.5);
 
 }
 
@@ -24,16 +25,28 @@
 }
 
 /* nav__notification */
-.nav__notification{
-    background-color: red;
+.nav__notification_1{
+    background-color: tomato;
     color: white;
-    display: block;
-    width: 20px;
-    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
     border-radius: 99%;
-    text-align: center;
-    vertical-align: center;
     position: absolute;
-    left: 15px;
-    bottom: 15px;
+    top: 0;
+    left: 40px;
+}
+
+.nav__notification_circle{
+    background-color: tomato;
+    color: white;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    border-radius: 99%;
+    position: absolute;
+    top: 5px;
+    left: 40px;
 }
