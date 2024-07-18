@@ -5,6 +5,7 @@
 
 .status-bar{
     display: flex;
+    justify-content: center;
     padding: 8px;
     border-bottom: 1px solid #ddd;
 }
@@ -20,14 +21,16 @@
 .status-bar--column:nth-child(2){
     display: flex;
     justify-content: center;
+
     
 }
 .status-bar--column:last-child{
     display: flex;
-    justify-content: right;    
+    justify-content: flex-end;    
+    align-items: center;
 }
 
-.status-bar--column:last-child span, i:first-child{
+.status-bar--column:last-child span, .fa-battery-full{
     margin-right: 5px;
 }
 
