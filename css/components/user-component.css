@@ -1,14 +1,22 @@
 
+
 .user-component{
-    padding: 0 24px;
+    margin-top: 30px;
+    justify-content: space-between;
 }
 .user-component, .user-component__column{
     display: flex;
     align-items: center;
-    width: 100%;
     box-sizing: border-box;
 }
 
+.user-component__column{
+    height: 80px;
+}
+
+.user-component__column:first-child{
+    width: 100%;
+}
 .user-component__avatar{
     width: var(--avatar-sm);
     height: var(--avatar-sm);
@@ -16,15 +24,13 @@
     border-radius: 20px;
     overflow: hidden;
     border: 1px solid;
+    margin-right: 25px;
 }
 
 .user-component__avatar img{
     max-width: 100%;
     object-fit: cover;
 }
-
-
-
 
 .user-component__title{
     font-size: 20px;
@@ -33,4 +39,8 @@
 
 .user-component__subtitle{
     margin-top: 10px;
+}
+
+.user-component__icon{
+    margin-left: 10px;
 }
